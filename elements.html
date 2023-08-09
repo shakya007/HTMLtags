@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bata Shoes</title>
+        <link href="Images/person (1).png" rel="icon" type="images/x-icon">
+
+        <style>
+            .flex-container{
+                display: flex;
+                background-color: yellow;
+            }
+            h1{
+                position: sticky;
+            }
+            table,td,th{
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                padding: 20px;
+                width: 100%;
+            }
+            tr:hover{
+                background-color: blueviolet;
+            }
+            img{
+                /* position: absolute; */
+                z-index: -1;
+                right: 0px;
+                top: 0px;
+            }
+            span,h3{
+                color: aliceblue;
+
+            }
+        header{
+                right: 20px;
+            }
+        div{
+            text-align: left;
+            border: 2px solid black;
+        }
+        button:hover{
+
+            background-color: hotpink;
+        }
+        ul.b{
+            list-style-type: square;
+            list-style-image: url(Images/bank.png);
+        }
+        </style>
+    </head>
+    <body style="background-color: aqua;">
+        <header>
+            <hr>
+            <h1 class="sticky">All Shoes Brand Collection</h1>
+            <nav>
+                <a href="#">Bata</a>
+                <a href="#">Adidas</a>
+                <a href="#">Puma</a>
+                <a href="#">Sneakers</a>
+                <a href="#">Nike</a>
+            </nav>
+        </header>
+
+        <hr>
+        <h2>Basic HTML</h2>
+        <p>Paragraph Tag</p>
+        <b><span>Span Tag</span></b>
+        <div>Div Tag</div>
+
+        <hr>
+        <h2>HTML Formatting</h2><br>
+        <b>This is Bold tag</b><br>
+        <ins>This is insert tag</ins><br>
+        <mark>This is Mark tag</mark><br>
+        <del>This is delete tag</del><br>
+        <small>This is Small tag</small><br>
+        <div>Hii i am <sup>shatrughan</sup> and i become a <sub>front-end developer</sub> with the help of dit Academy</div><br>
+        <strong>This is strong tag like bold</strong><br>
+        <em>This is Emphasized Tag</em><br>
+         <i>This is Emphasized Tag</i><br>
+
+        <hr>
+        <h2>Iframes</h2>
+        <iframe width="650" height="315" src="https://www.youtube.com/embed/8XbTb9yt0Ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.2994345965058!2d72.50907567255628!3d23.012775392190598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bba26220fb9%3A0xb6df7db7d1c77b42!2sDIT%20Academy!5e0!3m2!1sen!2sin!4v1690974866760!5m2!1sen!2sin" width="750" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+        <hr>
+        <h2>Images</h2>
+        <h3>Eagle</h3>
+        <img src="Images/vecteezy_bald-eagle-on-a-dark-background-3d-illustration-vintage_23178509_896.jpg" alt="Image Not Found" width="500">
+        <div>Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, some of which are closely related. True eagles comprise the genus Aquila. Most of the 68 species of eagles are from Eurasia and Africa.</div>
+        <hr>
+        <h2>Form & Input</h2>
+        <form action="" method="">
+            <label>First Name:</label>
+            <input type="text" name="name"><br>
+            <label>Last Name:</label>
+            <input type="text" name="name"><br>
+            <label>Mobile No:</label>
+            <input type="number" name="number"><br>
+            <label>Birth Date</label>
+            <input type="date" name="date"><br>
+            <label>Time</label>
+            <input type="time" name="time"><br>
+            <label>Color Picker</label>
+            <input type="color" name="color"><br>
+
+            <select>
+                <option>Bata</option>
+                <option selected>Adidas</option>
+                <option>Puma</option>
+                <option>Nike</option>
+            </select><br>
+
+            <label>Gender:</label>
+            <label>Male</label>
+            <input type="radio" name="male" class="Gender" checked>
+            <label>Female</label>
+            <input type="radio" name="female" class="Gender">
+            <label>Other</label>
+            <input type="radio" name="other" class="Gender"><br>
+            
+            <label>Department</label>
+            <label>Computer Engineering</label>
+            <input type="checkbox" name="name" checked>
+            <label>Meachnical Engineering</label>
+            <input type="checkbox" name="name">
+            <label>Electrical Engineering</label>
+            <input type="checkbox" name="name">
+            <label>Civil Engineering</label>
+            <input type="checkbox" name="name"><br>
+
+            <label>search</label>
+            <input type="search" name="name"><br>
+            <label>Image</label>
+            <input type="image" name="image"><br>
+            <label>File</label>
+            <input type="file" name="file"><br>
+            <label>Range</label>
+            <input type="range" name="range"><br>
+            <label>URL</label>
+            <input type="url" name="url"><br>
+            <label>Telephone</label>
+            <input type="tel" name="tel"><br>
+            <label>Week</label>
+            <input type="week" name="week"><br>
+            <label>month</label>
+            <input type="month" name="month"><br>
+            <button type="reset" name="reset">Reset</button>
+            <button type="submit" name="Submit">Submit</button><br>
+        </form>
+
+        <hr>
+        <h2>Table</h2>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Mobile No</th>
+                        <th>Address</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Shatrughan</td>
+                        <td>23</td>
+                        <td>9510027318</td>
+                        <td>Vatva</td>
+                        <td>Ahmedabad</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Sagar</td>
+                        <td>22</td>
+                        <td>9510027320</td>
+                        <td>kalavad</td>
+                        <td>Jamnagar</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tirth</td>
+                        <td>24</td>
+                        <td>9515027318</td>
+                        <td>Narol</td>
+                        <td rowspan="4">Ahmedabad</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Vinod</td>
+                        <td>20</td>
+                        <td>9610027318</td>
+                        <td>krishnanagar</td>
+                        <!-- <td>Ahmedabad</td> -->
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Dilip</td>
+                        <td>25</td>
+                        <td>9710027318</td>
+                        <td>Saijpur Bogha</td>
+                        <!-- <td>Ahmedabad</td> -->
+                    </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>Anil</td>
+                        <td>29</td>
+                        <td>9510028318</td>
+                        <td>Memco</td>
+                        <!-- <td>Ahmedabad</td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Relative URL & Absolute URL -->
+        <hr>
+        <h2>Absolute URL</h2>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.linkedin.com/feed/">Linked in</a>
+        <a href="https://web.whatsapp.com/">Whatsapp</a>
+
+        <hr>
+        <h2>Relative URL</h2>
+        <a href="Html/practical1.html">Practical 1</a>
+
+        <ul class="b">
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Water</li>
+            <li>Capacino Coffee</li>
+        </ul>
+
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+             <div>3</div>
+        </div>
+
+    </body>
+</html>
